@@ -2,11 +2,7 @@
 
 <launch>
   <!-- Arguments for launch file with defaults provided -->
-<<<<<<< HEAD
   <arg name="database_path"     default="/home/workspace/catkin_ws/rtabmap.db"/>
-=======
-  <arg name="database_path"     default="rtabmap.db"/>
->>>>>>> 9cc0649f3ec45d72f4edf480c9d514fb7b47af8f
   <arg name="rgb_topic"   default="/camera/rgb/image_raw"/>
   <arg name="depth_topic" default="/camera/depth/image_raw"/>
   <arg name="camera_info_topic" default="/camera/rgb/camera_info"/>  
